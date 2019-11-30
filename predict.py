@@ -26,7 +26,7 @@ def get_tensor(img):
 
 
 def predict(img):
-    model = get_model('/Users/vatsalsaglani/Desktop/njunk/personal/CelebA_API/models/Model_40_total_EPCHS_Whole_Dataset')
+    model = get_model('models/yourmodelname')
 
     label_lst = ['5_o_Clock_Shadow','Arched_Eyebrows','Attractive','Bags_Under_Eyes','Bald','Bangs','Big_Lips','Big_Nose','Black_Hair',
     'Blond_Hair', 'Blurry','Brown_Hair','Bushy_Eyebrows','Chubby','Double_Chin','Eyeglasses','Goatee','Gray_Hair','Heavy_Makeup',
